@@ -6,10 +6,10 @@ Simple template to start any Touchdesigner project.
 
 The project consists in a folder hierarchy and a template .toe file.
 The standard project should be organized as follows:
-    - data: should contain all data, from images to audio files or fonts.
-    - scripts: general purpose scripts, often related to general behavior (what to do on program start) or scripts running on another Python instance.
-    - toxlib: use the externalization process.
-        - each module should have a folder containing the .tox file and a folder scripts with all the  
+- data: should contain all data, from images to audio files or fonts.
+- scripts: general purpose scripts, often related to general behavior (what to do on program start) or scripts running on another Python instance.
+- toxlib: use the externalization process described below.
+    - each module should have a folder containing the .tox file and the scripts used inside it.
 
 ## Getting Started
 
